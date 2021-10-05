@@ -17,7 +17,7 @@ const Home = () => {
                     </Button>
                 </InputGroup>
             </div>
-            <h1>From Home</h1>
+
 
 
         </div>

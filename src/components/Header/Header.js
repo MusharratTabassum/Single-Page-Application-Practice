@@ -18,13 +18,13 @@ const Header = () => {
         <div>
             <Navbar bg="light" variant="light">
                 <Container>
-                    <Navbar.Brand href="#home" className="logos"><h1>GURUS'</h1></Navbar.Brand>
-                    <Nav className="ms-auto link-des">
+                    <Navbar.Brand href="/home" className="logos"><h1>GURUS<span className="red">'</span></h1></Navbar.Brand>
+                    <Nav className="ms-auto">
                         <NavLink activeStyle={activeStyle} to="/home" className="items">
                             <li>Home</li>
                         </NavLink>
-                        <NavLink activeStyle={activeStyle} to="/services" className="items">
-                            <li>Services</li>
+                        <NavLink activeStyle={activeStyle} to="/courses" className="items">
+                            <li>Courses</li>
                         </NavLink>
                         <NavLink activeStyle={activeStyle} to="/about" className="items">
                             <li>About</li>
