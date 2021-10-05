@@ -1,8 +1,17 @@
-.link-des{
-    color: black; 
-    font-weight: 500;
-}
 .logos{
    color: red;
-   font-weight: 700;
+   font-weight: bolder;
 }
+
+.items {
+    list-style: none;
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .items:hover {
+    color: rgb(221, 5, 5);
+  }
