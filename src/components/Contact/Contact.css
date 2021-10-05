@@ -1,0 +1,9 @@
+.contact{
+    background-color: lightcyan;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    margin: 80px;
+    box-shadow: 5px 5px 5px gray;
+}

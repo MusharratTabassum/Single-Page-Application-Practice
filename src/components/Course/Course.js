@@ -11,7 +11,7 @@ const Course = (props) => {
                 </div>
                 <div className="course-information">
                     <h4>Course Name:{name}</h4>
-                    <p>Duration: <small className="text-info"> {duration} Days</small></p>
+                    <p>Duration: <small className="text-danger"> {duration} Days</small></p>
                     <h5>Price:{price} taka</h5>
                     <p>Model Test: {modeltest}</p>
                     <button>Buy Now</button>

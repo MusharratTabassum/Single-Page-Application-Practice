@@ -11,6 +11,8 @@ import {
 } from 'react-router-dom';
 import NotFound from './components/NotFound/NotFound';
 import Courses from './components/Courses/Courses';
+import Banner from './components/Banner/Banner';
+import Course from './components/Course/Course';
 
 function App() {
   return (
@@ -20,12 +22,17 @@ function App() {
 
         <Switch>
           <Route exact path="/">
-            <Home></Home>
-          </Route>
-          <Route path="/home">
+
+            <Banner></Banner>
             <Home></Home>
             <Courses></Courses>
 
+          </Route>
+          <Route path="/home">
+
+            <Banner></Banner>
+            <Home></Home>
+            <Courses></Courses>
           </Route>
           <Route path="/courses">
             <Courses></Courses>

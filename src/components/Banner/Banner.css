@@ -1,0 +1,9 @@
+.banner-section-title h2 {
+    color: #000;
+    text-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "DM Sans",sans-serif;
+    margin-top: 20%;
+   
+}
