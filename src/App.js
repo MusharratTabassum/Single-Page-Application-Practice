@@ -13,6 +13,7 @@ import NotFound from './components/NotFound/NotFound';
 import Courses from './components/Courses/Courses';
 import Banner from './components/Banner/Banner';
 import Course from './components/Course/Course';
+import Services from './components/Services/Services';
 
 function App() {
   return (
@@ -25,14 +26,14 @@ function App() {
 
             <Banner></Banner>
             <Home></Home>
-            <Courses></Courses>
+            <Services></Services>
 
           </Route>
           <Route path="/home">
 
             <Banner></Banner>
             <Home></Home>
-            <Courses></Courses>
+            <Services></Services>
           </Route>
           <Route path="/courses">
             <Courses></Courses>

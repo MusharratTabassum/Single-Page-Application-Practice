@@ -17,9 +17,6 @@ const Home = () => {
                     </Button>
                 </InputGroup>
             </div>
-
-
-
         </div>
     );
 };

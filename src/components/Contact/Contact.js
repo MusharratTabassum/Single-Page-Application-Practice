@@ -5,9 +5,11 @@ const Contact = () => {
         <div className="container">
             <div className="contact">
                 <h3>Contact</h3>
-                <p>
-                    GURUS' was established in 1996 and is now recognized as one of the most reputed admission and standardized test preparation centers of Bangladesh.It is the most reputed test preparation & study abroad facilitator in Bangladesh has started recruiting students for more than 50 US Universities.
-                </p>
+                <h6>Kalabagan. 166/1 Mirpur Road (Beside Dolphin Goli), Kalabagan, Dhaka-1205.</h6>
+                <h6>Phone : 9131828 9141795 01713243401 01713243402 01713243403 </h6>
+                <h6>info@gurus.com.bd</h6>
+
+
             </div>
 
         </div>
