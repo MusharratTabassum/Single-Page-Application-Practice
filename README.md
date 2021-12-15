@@ -1,4 +1,3 @@
-Live Link : https://github.com/ProgrammingHeroWC4/review-website-MusharratTabassum
 
 Overview :
 1.This website is an educational site.
